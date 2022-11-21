@@ -1,0 +1,14 @@
+$MainBackgroundColor: yellow;
+$colorMainText: blue;
+
+body {
+    
+}
+
+.section {
+    background-color: $MainBackgroundColor;
+
+    &__title {
+        color: $colorMainText;
+    }
+}
