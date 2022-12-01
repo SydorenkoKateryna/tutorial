@@ -1,14 +1,7 @@
-$MainBackgroundColor: yellow;
-$colorMainText: blue;
-
-body {
-    
-}
-
-.section {
-    background-color: $MainBackgroundColor;
-
-    &__title {
-        color: $colorMainText;
-    }
-}
+// Vars
+@import './utils/vars';
+// Base
+@import './base/reset';
+@import './base/common';
+// Footer
+@import './components/footer';

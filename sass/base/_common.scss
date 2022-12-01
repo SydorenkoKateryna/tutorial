@@ -1,0 +1,17 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: $mainBgColor;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}

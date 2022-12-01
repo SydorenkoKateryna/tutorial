@@ -5,11 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./dist/css/main.min.css" />
   </head>
   <body>
-   <section class="section">
-    <h2 class="section__title">Hello</h2>
-   </section>
+    <header><div class="container">Hello</div></header>
+    <main><div class="container">One more time Hello:)</div></main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="foot-nav list">
+          <li class="foot-nav__item"><a class="link foot-nav__link" href="">Home</a></li>
+          <li class="foot-nav__item"><a class="link foot-nav__link" href="">About</a></li>
+          <li class="foot-nav__item">
+            <svg class="logo foot-nav__logo" width="41" height="39"><use href="./images/icons.svg#logo"></use></svg>
+          </li>
+          <li class="foot-nav__item"><a class="link foot-nav__link" href="">Service</a></li>
+          <li class="foot-nav__item"><a class="link foot-nav__link" href="">Blog</a></li>
+        </ul>
+
+        <ul class="list socials">
+          <li class="socials__item">
+            <a href="#" class="link socials__link" aria-label="Facebook">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a href="#" class="link socials__link" aria-label="Twitter">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#twitter"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a href="#" class="link socials__link" aria-label="Instagram">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a href="#" class="link socials__link" aria-label="Youtube">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="socials__item">
+            <a href="#" class="link socials__link" aria-label="Pinterest">
+              <svg class="socials__icon" width="20" height="20">
+                <use href="./images/icons.svg#pinterest"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+
+        <div class="copyright">
+          <p class="copyright__text">&#169; 2010 — 2020</p>
+          <p class="copyright__text">Privacy — Terms</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
