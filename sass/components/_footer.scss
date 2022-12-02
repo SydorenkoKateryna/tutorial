@@ -12,8 +12,9 @@
   &::after {
     content: '';
     position: absolute;
-    bottom: 0;
-    transform: translateY(43px);
+    bottom: -43px;
+    left: 50%;
+    transform: translateX(-50%);
     display: block;
     width: 1000px;
     height: 1px;
